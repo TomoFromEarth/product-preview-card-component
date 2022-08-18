@@ -9,6 +9,10 @@ body {
     color: hsl(212, 21%, 14%);
 }
 
+.desktop-container {
+    display: none;
+}
+
 .mobile-container {
     display: flex;
     flex-direction: column;
@@ -79,6 +83,7 @@ body {
 button {
     display: flex;
     align-items: center;
+    width: 88%;
     margin-left: 20px;
     margin-bottom: 10%;
     padding-left: 25%;
@@ -101,4 +106,16 @@ button img {
 
 .attribution a { 
     color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (min-width: 376px) {
+    
+    .desktop-container {
+        display: flex;
+
+    }
+    
+    .mobile-container {
+        display: none;
+    }
 }
