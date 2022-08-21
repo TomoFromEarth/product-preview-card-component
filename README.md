@@ -36,6 +36,12 @@ Users should be able to:
 
 ## My process
 
+I opted for a mobile-first approach for this project.  I found the majority of this project fairly easy to layout (wether or not my code looks nice is a different story), but the button was a pain so any input on how to deal with that is always welcome.
+
+I used a media query and used the smallest point the desktop layout could go as the breakpoint which was 785px.
+
+This was pretty straightforward and I am always happy to get pointers from others...
+
 ### Built with
 
 - Semantic HTML5 markup
@@ -44,9 +50,7 @@ Users should be able to:
 
 ### What I learned
 
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+I need to study buttons more!
 
 ## Author
 
