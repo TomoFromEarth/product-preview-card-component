@@ -4,6 +4,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    min-height: 100vh;
     align-items: center;
     box-sizing: border-box;
     font-size: 14px;
@@ -124,6 +125,7 @@ button img {
     
     .desktop-container {
         display: flex;
+        justify-content: center;
         max-width: 1000px;
     }
 
@@ -145,7 +147,7 @@ button img {
         margin-bottom: .75rem;
     }
     
-    #title {
+    #title-desktop {
         font-family: 'Fraunces', Arial, Helvetica, sans-serif;
         font-weight: 700;
         font-size: 3rem;
